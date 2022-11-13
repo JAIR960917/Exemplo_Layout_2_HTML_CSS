@@ -1,80 +1,308 @@
 *{
 	padding: 0;
 	margin: 0;
-	background-color: rgba(51, 0, 255, 1);
 }
 
 html,body{
 	height: 100%;
 }
 
-.menu{
-	margin-top: 10px;
-	width: 1010px;
-	margin: 1 auto;
-	background-color: rgba(51, 0, 255, 1.0);
-	color: white;
+.menu{/*Estilo do menu do site*/
+	height: 40px;
+	text-align: left;
+	width: 1080px;
+	margin: 5px auto;
 	padding: 5px;
-	max-height: 40px;
+	vertical-align: center;
 }
 
 .menu a{
-	margin: 0 15px;
+	margin: auto;/*Margem da div*/
+	height: 40px;
+	margin-left: 60px;
 	font-size: 20px;
-	color: white;
+	color: black;
 	text-decoration: none;
-	padding: 5px;
+	padding: 5px;/*Espaçamento interno*/
 	font-weight: bold;
+}
+
+.menu span{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgba(51, 0, 255, 1.0);
+}
+
+.menu .span2{
+	color: black;
+	margin-right: 35px;
+}
+
+.menu a:hover{/*Função para mudar a cor da letra ao colocar o mouse em cima do link*/
+	color: red;
 }
 
 .menu img{
 	width: 70px;
 	height: 40px;
-	margin-right: 150px;
-}
+	margin-right: 80px;
+	margin-left: 5px;
+}/*Estilo do menu do site*/
 
 
-.final{
+.final{/*Estilo do rodapé do site*/
 	display: inline-block;
 	text-align: center;
-	width: 1010px;
+	width: 1080px;
 	margin-top: 5px;
-	height: 180px;
-	color: white;
-	background-color: rgba(51, 0, 255, 1.0);
+	height: 200px;
+	color: black;
 }
 
-.text_nav{/*exemplo site*/
+.text_nav{/*exemplo site */
+	vertical-align: top;
+	font-size: 12px;
 	line-height: 25px;
 	text-align: center;
-	margin-top: 15px;
-	margin-left: 5px;
+	margin-top: 10px;
 	width: 300px;
 	display: inline-block;
+}
+
+.text_nav h2{/*Elemento titulo do text_nav(Exemplo de site)*/
+	text-align: center;
+	color: rgba(51, 0, 255, 1.0);
+}
+
+.text_nav span{
+	color: black;
 }
 
 
 
 .navegar {/*Links Rápidos*/
-	line-height: 25px;
-	text-align: left;
-	width: 180px;
-	margin-left: 300px;
-	margin-bottom: 50px;
-	display: inline-block;
-	background-color: rgba(51, 0, 255, 1);
+	font-size: 12px;/* Tamanho da fonte usada */
+	line-height: 20px;/*Espaçamento entre as linhas*/
+	text-align: left;/*Alinhamento do texto*/
+	width: 180px;/*Tamanho da div*/
+	margin-left: 300px;/*Margem a esquerda*/
+	margin-bottom: 50px;/*Margem para baixo*/
+	display: inline-block;/*Os elementos ficarem na mesma linha*/
+	color: black;/*Cor de fundo*/
 }
 
 .suporte{/*Companhia*/
-	line-height: 25px;
+	font-size: 12px;
+	line-height: 20px;
 	width: 180px;
 	text-align: left;
 	display: inline-block;
 	margin-left: 8px;
-	background-color: rgba(51, 0, 255, 1);
 }
 
-.final a{
+.div_suporte{
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+.div_nav{
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+.final a{/*Definindo cor dos links e tirando o sublinhado*/
 	text-decoration: none;
+	color: black;
+}/*Estilo rodapé do site*/
+
+.final2{
+	width: 1080px;
+	height: 20px;
+	background: rgba(51, 0, 255, 1.0);
 	color: white;
+	text-align: right;
+}
+
+.final2 h2{
+	margin-right: 15px;
+	font-size: 15px;
+}
+
+.sobre_a_empresa{/*Estilização primeira parte do site*/
+	width: 1080px;
+	text-align: center;
+}
+
+.titulos{
+	text-align: left;
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sobre_a_empresa h5{/*Economia|eficiencia|efetividade*/
+	margin-top: 20px;
+	color: rgba(51, 0, 255, 1.0);
+	margin-bottom: 15px;
+}
+
+.sobre_a_empresa h3{/*Titulo*/
+	font-size: 35px;
+	width: 500px;
+}
+
+.sobre_a_empresa span{/*Exemplo2*/
+	color: rgba(51, 0, 255, 1.0);
+	font-size: 35px;
+}
+
+
+.sobre_a_empresa p{/*Parágrafo*/
+	display: inline-block;
+	width: 250px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+.img_empresa{
+	display: inline-block;
+	margin-top: 20px;
+}/*Imagem sobre a empresa inicio do site*/
+
+.imagem_completa img{/*Imagem completa do site*/
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	width: 1040px;
+	height: 650px;
+}/*Imagem completa do site*/
+
+.resultado{/*Inicio dos blocos de resultados*/
+	width: 1080px;
+	text-align: center;
+}
+
+.resultado div{
+	border-color: rgba(228, 228, 228, 1.0);/*Escolhe a cor da borda*/
+	border-width: 2px;/*Escolhe a largura da borda*/
+	border-style: solid;/*Define o tipo de borda, nesse modelo estou usando a borda normal*/
+	width: 160px;
+	height: 115px;
+	display: inline-block;
+	text-align: center;
+	padding: 8px;
+	margin-left: 45px;
+}
+
+.resultado h4{
+	color: rgba(51, 0, 255, 1.0);
+}/*Final dos blocos de resultados*/
+
+.mission{/*Bloco missão da empresa*/
+	width: 1080px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.missao p{
+	font-size: 20px;
+	margin-top: 15px;
+	line-height: 25px;
+	color: rgba(90, 90, 90, 1.0);
+}
+.missao h4{
+	font-size: 30px;
+	line-height: 28px;
+}
+
+.missao h6{
+	font-size: 15px;
+}
+
+.missao{
+	vertical-align: top;/*O texto fica na parte superior*/
+	line-height: 20px;
+	text-align: left;
+	width: 500px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.img_bloco{
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.missao button{
+	margin-top: 10px;
+	width: 140px;
+	height: 35px;
+	background-color: rgba(51, 0, 255, 1.0);
+	color: white;
+	border-style: solid;
+	border-color: rgba(51, 0, 255, 1.0);
+	border-radius: 360px;
+}
+
+.missao span{
+	color: rgba(51, 0, 255, 1.0);
+}
+
+.missao h4{
+	color: black;
+}
+.missao h6{
+	color: rgba(51, 0, 255, 1.0);
+}/*Final do Bloco missão da empresa*/
+
+.produtos{
+	margin-top: 40px;
+	width: 1080px;
+	text-align: center;
+	
+}
+
+.produtos_txt{
+	vertical-align: top;
+	display: inline-block;
+	width: 500px;
+	text-align: left;
+}
+
+.img_pro{
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.produtos_txt h4{
+	line-height: 35px;
+	font-size: 30px;
+	color: black;
+}
+
+span{
+	color: rgba(51, 0, 255, 1.0);
+}
+
+.produtos_txt p{
+	margin-top: 10px;
+	font-size: 18px;
+	color: rgba(90, 90, 90, 1.0);
+}
+
+.produtos_txt button{
+	background: rgba(51, 0, 255, 1.0);
+	color: white;
+	width: 140px;
+	height: 35px;
+	border-radius: 360px;
+	border-style: solid;
+	border-color: rgba(51, 0, 255, 1.0);
+	margin-top: 15px;
+}
+
+.produtos_txt h6{
+	font-size: 15px;
+	color: rgba(51, 0, 255, 1.0);
 }
