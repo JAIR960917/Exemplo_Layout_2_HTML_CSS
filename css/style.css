@@ -40,7 +40,7 @@ html,body{
 }
 
 .menu a:hover{/*Função para mudar a cor da letra ao colocar o mouse em cima do link*/
-	color: red;
+	color: rgba(51, 0, 255, 1.0);
 }
 
 .menu img{
@@ -121,7 +121,7 @@ html,body{
 	height: 20px;
 	background: rgba(51, 0, 255, 1.0);
 	color: white;
-	text-align: right;
+	text-align: center;
 }
 
 .final2 h2{
@@ -174,8 +174,8 @@ html,body{
 	margin-left: 15px;
 	margin-top: 15px;
 	margin-bottom: 20px;
-	width: 1040px;
-	height: 650px;
+	width: 990px;
+	height: 550px;
 }/*Imagem completa do site*/
 
 .resultado{/*Inicio dos blocos de resultados*/
@@ -256,7 +256,7 @@ html,body{
 	color: rgba(51, 0, 255, 1.0);
 }/*Final do Bloco missão da empresa*/
 
-.produtos{
+.produtos{/*Inicio bloco Acreditamos no poder da união e do trabalho em equipe*/
 	margin-top: 40px;
 	width: 1080px;
 	text-align: center;
@@ -285,24 +285,310 @@ span{
 	color: rgba(51, 0, 255, 1.0);
 }
 
-.produtos_txt p{
-	margin-top: 10px;
-	font-size: 18px;
+.produtos_txt p{/*Paragrafo da div acreditamos no poder da união e do trabalho em equipe*/
+	margin-top: 10px;/*Margem do topo*/
+	font-size: 18px;/*Tamanho da fonte da letra*/
+	color: rgba(90, 90, 90, 1.0);/*Cor da letra*/
+}
+
+.produtos_txt button{/*Botão da div acreditamos no poder da união e do trabalho em equipe*/
+	background: rgba(51, 0, 255, 1.0);/*Cor de fundo*/
+	color: white;/*Cor da letra*/
+	width: 140px;/*Largura*/
+	height: 35px;/*Altura*/
+	border-radius: 360px;/*Formato da borda*/
+	border-style: solid;/*Estilo do contorno*/
+	border-color: rgba(51, 0, 255, 1.0);/*Cor do contorno*/
+	margin-top: 15px;/*Margem de cima*/
+}
+
+.produtos_txt h6{/*Nossa missão*/
+	font-size: 15px;/*Tamanho da fonte*/
+	color: rgba(51, 0, 255, 1.0);/*Cor da fonte*/
+}/*Final do bloco Acreditamos no poder da união e do trabalho em equipe*/
+
+.equipe{/*Inicio do bloco A nossa Incrível equipe*/
+	line-height: 25px;
+	width: 1080px;/*Definindo largura do elemento*/
+	text-align: center;/*Definindo alinhamento central*/
+	background-color: rgba(51, 0, 255, 1.0);/*Definindo cor de fundo*/
+	margin-top: 40px;/*Definindo margem do topo*/
+}
+
+.equipe_txt{/*Definindo estilo para elementos de titulo*/
+	margin-top: 10px;/*Definindo margem do topo*/
+	margin-bottom: 10px;/*Definindo margem de baixo*/
+	color: white;/*Definindo cor da letra*/
+}
+
+
+.card1{/*Card Mariane Barbosa*/
+	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
+	width: 220px;/*Determinando a largura*/
+	height: 210px;
+	background-color: white;/*Definindo a cor de fundo*/
+	border-radius: 6px;
+}
+
+.card1 h2{
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+.card2{/*Card Artur da Mata*/
+	margin-left: 30px;/*Definindo a margem a esquerda*/
+	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
+	width: 220px;/*Definindo a largura*/
+	height: 210px;
+	background-color: white;/*Definindo cor de fundo*/
+	border-radius: 6px;
+}
+
+.card2 h2{
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+
+.card3{/*Card Stella Cardoso*/
+	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
+	background-color: white;/*Definindo a cor de fundo*/
+	width: 220px;/*Definindo largura*/
+	height: 210px;
+	margin-left: 30px;/* Definindo margem a esquerda*/
+	border-radius: 8px;
+}
+
+.card3 h2{
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+
+.card4{/*Card Renan Campos*/
+	background-color: white;/*Definindo cor de fundo*/
+	margin-left: 30px;/* Definindo margem a esquerda */
+	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
+	height: 210px;
+	width: 220px;/*Definindo largura*/
+	border-radius: 8px;
+}
+
+.card4 h2{
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+
+.card5{
+	display: inline-block;
+	background-color: white;
+	height: 210px;
+	width: 220px;
+	border-radius: 8px;
+}
+
+.card5 h2{
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+
+.card6{
+	display: inline-block;
+	width: 220px;
+	height: 210px;
+	background-color: white;
+	margin-left: 30px;
+	border-radius: 8px;
+}
+
+.card6 h2{
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+
+.card7{
+	display: inline-block;
+	width: 220px;
+	height: 210px;
+	background-color: white;
+	margin-left: 30px;
+	border-radius: 8px;
+}
+
+.card7 h2{
+	margin-top: 5px;
+	font-size: 22px;
+}
+
+
+.card8{
+	display: inline-block;
+	width: 220px;
+	height: 210px;
+	background-color: white;
+	margin-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+}
+
+.card8 h2{/*Editando o Nome dos funcionários*/
+	margin-top: 5px;/*Definindo margem a cima*/
+	font-size: 22px;/*Definindo tamanho da letra*/
+}
+
+.card h5{/*Editando descrição de função dos funcionários*/
+	color: rgba(51, 0, 255, 1.0);/*Definindo cor da função dos funcionários*/
+}
+
+
+.equipe button{/*Editando o botão*/
+	font-weight: bold;/*Definindo tipo da fonte como bold*/
+	width: 200px;/*Definindo largura*/
+	height: 40px;/*Definindo altura*/
+	border-style: solid;/*Definindo tipo da borda*/
+	border-color: rgba(51, 0, 255, 1.0);/*Definindo cor da borda*/
+	border-radius: 360px;/*Definindo Borda arredondada*/
+	color: rgba(51, 0, 255, 1.0);/*Definindo cor da letra*/
+	background-color: white;/*Definindo cor de fundo*/
+	margin-bottom: 15px;/*Definindo margem a baixo*/
+	margin-top: 5px;/*Definindo margem a cima*/
+}/*Final do bloco A nossa Incrível equipe*/
+
+.endereco{/*Inicio endereço*/
+	width: 1080px;
+	text-align: center;
+}
+
+.titulo_endereco{
+	margin-left: 100px;
+	width: 600px;
+	text-align: left;
+}
+
+.titulo_endereco h5{
+	color: rgba(51, 0,255, 1.0);
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.titulo_endereco h2{
+	margin-bottom: 5px;
+}
+
+.titulo_endereco p{
 	color: rgba(90, 90, 90, 1.0);
 }
 
-.produtos_txt button{
-	background: rgba(51, 0, 255, 1.0);
+.menos, .mais{
+	font-weight: bold;
+	border-style: none;
+	background-color: rgba(51, 0, 255, 1.0);
+	display: inline-block;
 	color: white;
-	width: 140px;
-	height: 35px;
-	border-radius: 360px;
-	border-style: solid;
-	border-color: rgba(51, 0, 255, 1.0);
-	margin-top: 15px;
+	width: 25px;
+	height: 25px;
+	margin-top: 5px;
 }
 
-.produtos_txt h6{
-	font-size: 15px;
+.posicao{
+	display: inline-block;
+	width: 450px;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.img_end{
+	margin-left: 110px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.posicao h2{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.contate{
+	margin-left: 15px;
+	margin-bottom: 5px;
+	background-color: rgba(51, 0, 255, 1.0);
+	color: white;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border-style: none;
+	text-align: center;
+}
+
+.endereco1{
+	border-style: solid;
+	border-color: rgba(51, 0, 255, 1.0);
+	border-radius: 16px;
+	padding: 15px;
+	vertical-align: top;
+}
+
+.endereco1 h2, .endereco2 h2{
+	font-size: 20px;
+	margin-right: 25px;
+	margin-left: 15px;
+}
+
+.endereco1 p{
+	margin-left: 15px;
+}
+
+.endereco2{
+	border-style: solid;
+	border-color: rgba(51, 0, 255, 1.0);
+	border-radius: 16px;
+	padding: 15px;
+	margin-top: 5px;
+}/*Final do endereço*/
+
+.inscreva{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	width: 1080px;
+	text-align: center;
+	background-color: rgba(51, 0, 255, 1.0);
+	line-height: 25px;
+}
+
+.inscreva h5{
+	color: white;
+}
+
+.inscreva h2{
+	color: white;
+}
+
+.inscreva p{
+	color: white;
+}
+
+.inscreva button{
+	background-color: white;
+	font-weight: bold;
+	border-style: none;
 	color: rgba(51, 0, 255, 1.0);
+	width: 100px;
+	height: 25px;
+	margin-bottom: 15px;
+}
+
+.inscreva input{
+	margin-top: 15px;
+	height: 25px;
+	border-radius: 4px;
+	border-style: none;
+	color: rgba(90, 90, 90, 1.0);
+	text-align: center;
 }
