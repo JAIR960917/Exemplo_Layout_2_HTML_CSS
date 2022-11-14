@@ -344,6 +344,10 @@ span{
 	border-radius: 6px;
 }
 
+.card img{
+	border-radius: 6px;
+}
+
 .card2 h2{
 	margin-top: 5px;
 	font-size: 22px;
