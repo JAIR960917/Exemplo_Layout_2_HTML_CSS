@@ -1,133 +1,49 @@
-*{
+*{/*Zerando as bordas do site*/
 	padding: 0;
 	margin: 0;
 }
 
-html,body{
+html,body{/*Definindo tamanho para html e body*/
 	height: 100%;
 }
 
 .menu{/*Estilo do menu do site*/
-	height: 40px;
-	text-align: left;
-	width: 1080px;
-	margin: 5px auto;
-	padding: 5px;
-	vertical-align: center;
+	height: 40px;/*Definindo altura*/
+	text-align: left;/*Definindo alinhamento a esquerda*/
+	width: 1080px;/*Definindo largura*/
+	margin: 5px auto;/*Definindo margem entre os elementos*/
+	padding: 5px;/*Definindo margem externa*/
+	vertical-align: center;/*Definindo alinhamento vertical*/
 }
 
-.menu a{
+.menu a{/*Definições para os links*/
 	margin: auto;/*Margem da div*/
-	height: 40px;
-	margin-left: 60px;
-	font-size: 20px;
-	color: black;
-	text-decoration: none;
+	height: 40px;/*Definindo altura*/
+	margin-left: 60px;/*Definindo margem a esquerda*/
+	font-size: 20px;/*Definindo tamanho da fonte da letra*/
+	color: black;/*Definindo cor da letra*/
+	text-decoration: none;/*Removendo sublinhado do link*/
 	padding: 5px;/*Espaçamento interno*/
-	font-weight: bold;
+	font-weight: bold;/*Definindo fonte bold*/
 }
 
-.menu span{
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
-	color: rgba(51, 0, 255, 1.0);
+.menu span{/*Editando logomarca para ficar com duas cores part 1*/
+	font-size: 20px;/*Definindo tamanho da fonte*/
+	font-weight: bold;/*Definindo fonte como bold*/
+	color: rgba(51, 0, 255, 1.0);/*Definindo cor da fonte*/
 }
 
-.menu .span2{
-	color: black;
-	margin-right: 35px;
+.menu .span2{/*Concluindo a edição da logomarca*/
+	color: black;/*Definindo a cor*/
+	margin-right: 35px;/*Definindo margem a direita*/
 }
 
 .menu a:hover{/*Função para mudar a cor da letra ao colocar o mouse em cima do link*/
-	color: rgba(51, 0, 255, 1.0);
-}
-
-.menu img{
-	width: 70px;
-	height: 40px;
-	margin-right: 80px;
-	margin-left: 5px;
+	color: rgba(51, 0, 255, 1.0);/*Definindo para mudar a cor da letra ao passar o mouse em cima*/
 }/*Estilo do menu do site*/
 
 
-.final{/*Estilo do rodapé do site*/
-	display: inline-block;
-	text-align: center;
-	width: 1080px;
-	margin-top: 5px;
-	height: 200px;
-	color: black;
-}
 
-.text_nav{/*exemplo site */
-	vertical-align: top;
-	font-size: 12px;
-	line-height: 25px;
-	text-align: center;
-	margin-top: 10px;
-	width: 300px;
-	display: inline-block;
-}
-
-.text_nav h2{/*Elemento titulo do text_nav(Exemplo de site)*/
-	text-align: center;
-	color: rgba(51, 0, 255, 1.0);
-}
-
-.text_nav span{
-	color: black;
-}
-
-
-
-.navegar {/*Links Rápidos*/
-	font-size: 12px;/* Tamanho da fonte usada */
-	line-height: 20px;/*Espaçamento entre as linhas*/
-	text-align: left;/*Alinhamento do texto*/
-	width: 180px;/*Tamanho da div*/
-	margin-left: 300px;/*Margem a esquerda*/
-	margin-bottom: 50px;/*Margem para baixo*/
-	display: inline-block;/*Os elementos ficarem na mesma linha*/
-	color: black;/*Cor de fundo*/
-}
-
-.suporte{/*Companhia*/
-	font-size: 12px;
-	line-height: 20px;
-	width: 180px;
-	text-align: left;
-	display: inline-block;
-	margin-left: 8px;
-}
-
-.div_suporte{
-	margin-top: 10px;
-	line-height: 25px;
-}
-
-.div_nav{
-	margin-top: 10px;
-	line-height: 25px;
-}
-
-.final a{/*Definindo cor dos links e tirando o sublinhado*/
-	text-decoration: none;
-	color: black;
-}/*Estilo rodapé do site*/
-
-.final2{
-	width: 1080px;
-	height: 20px;
-	background: rgba(51, 0, 255, 1.0);
-	color: white;
-	text-align: center;
-}
-
-.final2 h2{
-	margin-right: 15px;
-	font-size: 15px;
-}
 
 .sobre_a_empresa{/*Estilização primeira parte do site*/
 	width: 1080px;
@@ -428,10 +344,10 @@ span{
 }
 
 
-.card8{
-	display: inline-block;
-	width: 220px;
-	height: 210px;
+.card8{/*Card Davi*/
+	display: inline-block;/*Elemento na mesma linha*/
+	width: 220px;/*Largura*/
+	height: 210px;/*Altura*/
 	background-color: white;
 	margin-left: 30px;
 	margin-top: 15px;
@@ -463,136 +379,214 @@ span{
 }/*Final do bloco A nossa Incrível equipe*/
 
 .endereco{/*Inicio endereço*/
-	width: 1080px;
-	text-align: center;
+	width: 1080px;/*Largura*/
+	text-align: center;/*Alinhamento*/
 }
 
-.titulo_endereco{
-	margin-left: 100px;
-	width: 600px;
-	text-align: left;
+.titulo_endereco{/*endereço*/
+	margin-left: 100px;/*margem a esquerda*/
+	width: 600px;/*Largura*/
+	text-align: left;/*Alinhamento*/
 }
 
-.titulo_endereco h5{
-	color: rgba(51, 0,255, 1.0);
-	margin-bottom: 10px;
-	margin-top: 20px;
+.titulo_endereco h5{/*exemplo 2*/
+	color: rgba(51, 0,255, 1.0);/*cor*/
+	margin-bottom: 10px;/*margem a baixo*/
+	margin-top: 20px;/*margem a cima*/
 }
 
-.titulo_endereco h2{
-	margin-bottom: 5px;
+.titulo_endereco h2{/*titulo*/
+	margin-bottom: 5px;/*margem a baixo*/
 }
 
-.titulo_endereco p{
-	color: rgba(90, 90, 90, 1.0);
+.titulo_endereco p{/*texto*/
+	color: rgba(90, 90, 90, 1.0);/*cor*/
 }
 
-.menos, .mais{
-	font-weight: bold;
-	border-style: none;
-	background-color: rgba(51, 0, 255, 1.0);
-	display: inline-block;
-	color: white;
-	width: 25px;
-	height: 25px;
-	margin-top: 5px;
+.menos, .mais{/*Botão mais e menos*/
+	font-weight: bold;/*Estilo da fonte*/
+	border-style: none;/*Removendo borda*/
+	background-color: rgba(51, 0, 255, 1.0);/*Cor de fundo*/
+	display: inline-block;/*Elementos na mesma linha*/
+	color: white;/*Cor da letra*/
+	width: 25px;/*Largura*/
+	height: 25px;/*Altura*/
+	margin-top: 5px;/*Margem a cima*/
 }
 
-.posicao{
-	display: inline-block;
-	width: 450px;
-	text-align: left;
-	vertical-align: top;
-	margin-top: 20px;
+.posicao{/*Endereços*/
+	display: inline-block;/*Definindo que os elementos fiquem na mesma linha*/
+	width: 450px;/*Definindo largura*/
+	text-align: left;/*Alinhamento */
+	vertical-align: top;/*alinhamento vertical*/
+	margin-top: 20px;/*Margem a cima*/
 }
 
-.img_end{
-	margin-left: 110px;
-	display: inline-block;
-	margin-top: 20px;
+.img_end{/*imagem google maps*/
+	margin-left: 110px;/*Definindo margem a esquerda*/
+	display: inline-block;/*Definindo que os elementos fiquem na mesma linha*/
+	margin-top: 20px;/*Margem a cima*/
 }
 
-.posicao h2{
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 5px;
-	text-align: left;
+.posicao h2{/*Exemplo endereço*/
+	display: inline-block;/*Definindo que os elementos fiquem na mesma linha*/
+	vertical-align: top;/*Definindo alinhamento vertical*/
+	margin-top: 5px;/*Definindo margem a cima*/
+	text-align: left;/*Definindo alinhamento*/
 }
 
-.contate{
-	margin-left: 15px;
-	margin-bottom: 5px;
-	background-color: rgba(51, 0, 255, 1.0);
-	color: white;
-	width: 100px;
-	height: 30px;
-	border-radius: 5px;
-	border-style: none;
-	text-align: center;
+.contate{/*Botão contate-nos*/
+	margin-left: 15px;/*Definindo margem a esquerda*/
+	margin-bottom: 5px;/*Definindo margem a baixo*/
+	background-color: rgba(51, 0, 255, 1.0);/*Definindo cor de fundo*/
+	color: white;/*Definindo cor da letra*/
+	width: 100px;/*Definindo largura*/
+	height: 30px;/*Definindo altura*/
+	border-radius: 5px;/*Definindo borda arredondada*/
+	border-style: none;/*Removendo a borda*/
+	text-align: center;/*Definindo alinhamento*/
 }
 
-.endereco1{
-	border-style: solid;
-	border-color: rgba(51, 0, 255, 1.0);
-	border-radius: 16px;
-	padding: 15px;
-	vertical-align: top;
+.endereco1{/*Endereço 1*/
+	border-style: solid;/*Definindo estilo da borda*/
+	border-color: rgba(51, 0, 255, 1.0);/*Definindo cor da borda*/
+	border-radius: 16px;/*Definindo borda arredondada*/
+	padding: 15px;/*Definindo espaçamento*/
+	vertical-align: top;/*Definindo alinhamento vertical*/
 }
 
-.endereco1 h2, .endereco2 h2{
-	font-size: 20px;
-	margin-right: 25px;
-	margin-left: 15px;
+.endereco1 h2, .endereco2 h2{/*Titulos*/
+	font-size: 20px;/*Definindo tamanho da letra*/
+	margin-right: 25px;/*Definindo margem a direita*/
+	margin-left: 15px;/*Definindo margem a esquerda*/
 }
 
-.endereco1 p{
-	margin-left: 15px;
+.endereco1 p{/*Texto endereço */
+	margin-left: 15px;/*Definindo margem a esquerda*/
 }
 
-.endereco2{
-	border-style: solid;
-	border-color: rgba(51, 0, 255, 1.0);
-	border-radius: 16px;
-	padding: 15px;
-	margin-top: 5px;
+.endereco2{/*Endereço 2*/
+	border-style: solid;/*Definindo estilo da borda*/
+	border-color: rgba(51, 0, 255, 1.0);/*Definindo cor da borda*/
+	border-radius: 16px;/*Definindo borda arredondada*/
+	padding: 15px;/*Definindo espaçamentos*/
+	margin-top: 5px;/*Definindo margem a cima*/
 }/*Final do endereço*/
 
-.inscreva{
-	margin-bottom: 25px;
-	margin-top: 25px;
-	width: 1080px;
-	text-align: center;
-	background-color: rgba(51, 0, 255, 1.0);
-	line-height: 25px;
+.inscreva{/*Div inscreva-se*/
+	margin-bottom: 25px;/*Definindo margem a baixo*/
+	margin-top: 25px;/*Definindo margem a cima*/
+	width: 1080px;/*Definindo largura*/
+	text-align: center;/*Definindo alinhamento*/
+	background-color: rgba(51, 0, 255, 1.0);/*Definindo cor de fundo*/
+	line-height: 25px;/*Definindo espaçamento entre as letras*/
 }
 
-.inscreva h5{
-	color: white;
+.inscreva h5{/*Exemplo 2*/
+	color: white;/*Definindo cor*/
 }
 
-.inscreva h2{
-	color: white;
+.inscreva h2{/*Texto Fique por dentro*/
+	color: white;/*Definindo cor*/
 }
 
-.inscreva p{
-	color: white;
+.inscreva p{/*Texto inscreva-se em nosso site*/
+	color: white;/*Definindo cor*/
 }
 
-.inscreva button{
-	background-color: white;
-	font-weight: bold;
-	border-style: none;
-	color: rgba(51, 0, 255, 1.0);
-	width: 100px;
-	height: 25px;
-	margin-bottom: 15px;
+.inscreva button{/*Botão inscreva-se*/
+	background-color: white;/*Definindo cor de fundo*/
+	font-weight: bold;/*Definindo estilo da fone como bold*/
+	border-style: none;/*Removendo borda*/
+	color: rgba(51, 0, 255, 1.0);/*Definindo cor da letra*/
+	width: 100px;/*Definindo largura*/
+	height: 25px;/*Definindo altura*/
+	margin-bottom: 15px;/*Definindo margem a baixo*/
 }
 
-.inscreva input{
-	margin-top: 15px;
-	height: 25px;
-	border-radius: 4px;
-	border-style: none;
-	color: rgba(90, 90, 90, 1.0);
-	text-align: center;
+.inscreva input{/*Caixa de texto inscreva-se*/
+	margin-top: 15px;/*Definindo margem ao topo*/
+	height: 25px;/*Definindo altura*/
+	border-radius: 4px;/*Definindo borda arredondada*/
+	border-style: none;/*Removendo borda*/
+	color: rgba(90, 90, 90, 1.0);/*Definindo cor da letra*/
+	text-align: center;/*Definindo alinhamento*/
 }
+
+.final{/*Estilo do rodapé do site*/
+	display: inline-block;/*Definindo que os elementos permaneçam na mesma linha*/
+	text-align: center;/*Definindo alinhamento central*/
+	width: 1080px;/*Definindo largura*/
+	margin-top: 5px;/*Definindo margem ao topo*/
+	height: 200px;/*Definindo altura*/
+	color: black;/*Definindo cor da letra*/
+}
+
+.text_nav{/*exemplo site */
+	vertical-align: top;/*Alinhamento vertical*/
+	font-size: 12px;/*Tamanho da fonte da letra*/
+	line-height: 25px;/*Definindo espaçamento entre as linhas*/
+	text-align: center;/*Definindo alinhamento*/
+	margin-top: 10px;/*Definindo marcem a cima*/
+	width: 300px;
+	display: inline-block;
+}
+
+.text_nav h2{/*Elemento titulo do text_nav(Exemplo de site)*/
+	text-align: center;/*Definindo alinhamento*/
+	color: rgba(51, 0, 255, 1.0);/*Definindo cor*/
+}
+
+.text_nav span{/*Definindo texto com duas cores (Exemplo do site)*/
+	color: black;/*Definindo cor*/
+}
+
+
+
+.navegar {/*Links Rápidos*/
+	font-size: 12px;/* Tamanho da fonte usada */
+	line-height: 20px;/*Espaçamento entre as linhas*/
+	text-align: left;/*Alinhamento do texto*/
+	width: 180px;/*Tamanho da div*/
+	margin-left: 300px;/*Margem a esquerda*/
+	margin-bottom: 50px;/*Margem para baixo*/
+	display: inline-block;/*Os elementos ficarem na mesma linha*/
+	color: black;/*Cor de fundo*/
+}
+
+.suporte{/*Companhia*/
+	font-size: 12px;/*Definindo tamanho da letra*/
+	line-height: 20px;/*Definindo espaçamento entre as linhas*/
+	width: 180px;/*Definindo largura*/
+	text-align: left;/*Definindo alinhamento para a esquerda*/
+	display: inline-block;/*Definindo que os elementos fiquem na mesma linha*/
+	margin-left: 8px;/*Definindo margem a esquerda*/
+}
+
+.div_suporte{/*Definindo atributos para companhia*/
+	margin-top: 10px;/*Definindo margem do topo*/
+	line-height: 25px;/*Definindo espaçamento entre linhas*/
+}
+
+.div_nav{/*Definindo atributos para links rápidos*/
+	margin-top: 10px;/*Definindo margem do topo*/
+	line-height: 25px;/*Definindo espaçamento entre linhas*/
+}
+
+.final a{/*Definindo cor dos links e tirando o sublinhado*/
+	text-decoration: none;/*Removendo o sublinhado dos links*/
+	color: black;/*Definindo a cor da letra*/
+}/*Estilo rodapé do site*/
+
+.final2{/*Definindo barra final do rodapé*/
+	width: 1080px;/*Definindo largura*/
+	height: 20px;/*Definindo altura*/
+	background: rgba(51, 0, 255, 1.0);/*Definindo cor de fundo*/
+	color: white;/*Definindo cor da letra*/
+	text-align: center;/*Definindo alinhamento como central*/
+}
+
+.final2 h2{/*Definindo texto da barra final do rodapé*/
+	margin-right: 15px;/*Definindo margem a direita*/
+	font-size: 15px;/*Definindo tamanho da letra*/
+}/*Ultima linha da estilização do rodapé*/
