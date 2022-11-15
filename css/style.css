@@ -46,69 +46,69 @@ html,body{/*Definindo tamanho para html e body*/
 
 
 .sobre_a_empresa{/*Estilização primeira parte do site*/
-	width: 1080px;
-	text-align: center;
+	width: 1080px;/*Largura*/
+	text-align: center;/*Alinhamento*/
 }
 
-.titulos{
-	text-align: left;
-	margin-right: 25px;
-	display: inline-block;
-	vertical-align: top;
+.titulos{/*Titulos*/
+	text-align: left;/*Alinhamento a esquerda*/
+	margin-right: 25px;/*Margem a direita*/
+	display: inline-block;/*Elementos na mesma linha*/
+	vertical-align: top;/*Alinhamento vertical*/
 }
 
 .sobre_a_empresa h5{/*Economia|eficiencia|efetividade*/
-	margin-top: 20px;
-	color: rgba(51, 0, 255, 1.0);
-	margin-bottom: 15px;
+	margin-top: 20px;/*Margem a cima*/
+	color: rgba(51, 0, 255, 1.0);/*Cor*/
+	margin-bottom: 15px;/*Margem a baixo*/
 }
 
 .sobre_a_empresa h3{/*Titulo*/
-	font-size: 35px;
-	width: 500px;
+	font-size: 35px;/*Tamanho da fonte*/
+	width: 500px;/*Largura*/
 }
 
 .sobre_a_empresa span{/*Exemplo2*/
-	color: rgba(51, 0, 255, 1.0);
-	font-size: 35px;
+	color: rgba(51, 0, 255, 1.0);/*Cor*/
+	font-size: 35px;/*Tamanho da letra*/
 }
 
 
 .sobre_a_empresa p{/*Parágrafo*/
-	display: inline-block;
-	width: 250px;
-	line-height: 20px;
-	margin-top: 5px;
+	display: inline-block;/*Elementos na mesma linha*/
+	width: 250px;/*Largura*/
+	line-height: 20px;/*Espaçamento entre linhas*/
+	margin-top: 5px;/*Margem a cima*/
 }
 
-.img_empresa{
-	display: inline-block;
-	margin-top: 20px;
+.img_empresa{/*Imagem sobre nossa companhia*/
+	display: inline-block;/*Elementos na mesma linha*/
+	margin-top: 20px;/*Margem a cima*/
 }/*Imagem sobre a empresa inicio do site*/
 
 .imagem_completa img{/*Imagem completa do site*/
-	margin-left: 15px;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	width: 990px;
-	height: 550px;
+	margin-left: 15px;/*Margem a esquerda*/
+	margin-top: 15px;/*Margem a cima*/
+	margin-bottom: 20px;/*Margem a baixo*/
+	width: 990px;/*Largura*/
+	height: 550px;/*Altura*/
 }/*Imagem completa do site*/
 
 .resultado{/*Inicio dos blocos de resultados*/
-	width: 1080px;
-	text-align: center;
+	width: 1080px;/*Largura*/
+	text-align: center;/*Alinhamento*/
 }
 
-.resultado div{
+.resultado div{/*Resultado*/
 	border-color: rgba(228, 228, 228, 1.0);/*Escolhe a cor da borda*/
 	border-width: 2px;/*Escolhe a largura da borda*/
 	border-style: solid;/*Define o tipo de borda, nesse modelo estou usando a borda normal*/
-	width: 160px;
-	height: 115px;
-	display: inline-block;
-	text-align: center;
-	padding: 8px;
-	margin-left: 45px;
+	width: 160px;/*Largura*/
+	height: 115px;/*Altura*/
+	display: inline-block;/*Elementos na mesma linha*/
+	text-align: center;/*Alinhamento */
+	padding: 8px;/*Alinhamento interno*/
+	margin-left: 45px;/*Margem a esquerda*/
 }
 
 .resultado h4{
@@ -116,24 +116,25 @@ html,body{/*Definindo tamanho para html e body*/
 }/*Final dos blocos de resultados*/
 
 .mission{/*Bloco missão da empresa*/
-	width: 1080px;
-	text-align: center;
-	margin-top: 40px;
+	width: 1080px;/*Largura*/
+	text-align: center;/*Alinhamento*/
+	margin-top: 40px;/*Margem a cima*/
 }
 
-.missao p{
-	font-size: 20px;
-	margin-top: 15px;
-	line-height: 25px;
-	color: rgba(90, 90, 90, 1.0);
-}
-.missao h4{
-	font-size: 30px;
-	line-height: 28px;
+.missao p{/*Texto*/
+	font-size: 20px;/*Fonte da letra*/
+	margin-top: 15px;/*Margem a cima*/
+	line-height: 25px;/*Espaçamento entre as linhas*/
+	color: rgba(90, 90, 90, 1.0);/*Cor */
 }
 
-.missao h6{
-	font-size: 15px;
+.missao h4{/*Titulo do bloco*/
+	font-size: 30px;/*Tamanho da fonte*/
+	line-height: 28px;/*Espaçamento entre linhas*/
+}
+
+.missao h6{/*Titulo pequeno em cima do título grande*/
+	font-size: 15px;/*Tamanho da fonte*/
 }
 
 .missao{/*Bloco principa construir melhor para melhor economia*/
@@ -239,6 +240,21 @@ span{/*Definindo segunda cor da logo marca*/
 	color: white;/*Definindo cor da letra*/
 }
 
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover{/*Definindo efeito ao passar o mouse em cima do elemento*/
+	width: 280px;/*Definindo largura*/
+	height: 260px;/*Definindo altura*/
+	margin-top: 15px;/*Definindo margem a cima ao passar o mouse por cima*/
+	animation-play-state: running;
+	animation-duration: 3s;
+}
+
+.div_nav a:hover, .div_suporte a:hover{
+	text-decoration: underline;
+	color: rgba(51, 0, 255, 1.0);
+}
+
+ 
+
 
 .card1{/*Card Mariane Barbosa*/
 	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
@@ -264,6 +280,8 @@ span{/*Definindo segunda cor da logo marca*/
 
 .card img{/*Imagens dos funcionários*/
 	border-radius: 6px;/*Borda arredondada*/
+	width: 100%;/*Definindo largura*/
+	height: 70%;/*Definindo altura*/
 }
 
 .card2 h2{/*Nome do funcionário*/
