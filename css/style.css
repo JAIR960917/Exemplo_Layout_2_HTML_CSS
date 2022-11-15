@@ -136,69 +136,71 @@ html,body{/*Definindo tamanho para html e body*/
 	font-size: 15px;
 }
 
-.missao{
+.missao{/*Bloco principa construir melhor para melhor economia*/
 	vertical-align: top;/*O texto fica na parte superior*/
-	line-height: 20px;
-	text-align: left;
-	width: 500px;
-	display: inline-block;
-	margin-right: -4px;
+	line-height: 20px;/*Espaçamento entre as linhas*/
+	text-align: left;/*Alinhamento do texto*/
+	width: 500px;/*Largura*/
+	display: inline-block;/*Elementos na mesma linha*/
 }
 
-.img_bloco{
-	margin-left: 20px;
-	display: inline-block;
+.img_bloco{/*Imagem construir melhor para melhor economia*/
+	margin-left: 20px;/*Margem a esquerda*/
+	display: inline-block;/*Elementos na mesma linha*/
 }
 
-.missao button{
-	margin-top: 10px;
-	width: 140px;
-	height: 35px;
-	background-color: rgba(51, 0, 255, 1.0);
-	color: white;
-	border-style: solid;
-	border-color: rgba(51, 0, 255, 1.0);
-	border-radius: 360px;
+.missao button{/*Botão construir melhor para melhor economia*/
+	margin-top: 10px;/*Margim a cima*/
+	width: 140px;/*Largura*/
+	height: 35px;/*Altura*/
+	background-color: rgba(51, 0, 255, 1.0);/*Cor de fundo*/
+	color: white;/*Cor da letra*/
+	border-style: none;/*Removendo borda do elemento*/
+	border-radius: 360px;/*Borda arredondada*/
 }
 
-.missao span{
-	color: rgba(51, 0, 255, 1.0);
+.missao span{/*Multicor da letra*/
+	color: rgba(51, 0, 255, 1.0);/*Cor da letra*/
 }
 
-.missao h4{
-	color: black;
+.missao h4{/*Título*/
+	color: black;/*Definindo cor*/
 }
-.missao h6{
-	color: rgba(51, 0, 255, 1.0);
-}/*Final do Bloco missão da empresa*/
+.missao h6{/*Nome pequeno acima do titulo*/
+	color: rgba(51, 0, 255, 1.0);/*Definindo cor*/
+}/*Final do Bloco construir melhor para a economia*/
 
 .produtos{/*Inicio bloco Acreditamos no poder da união e do trabalho em equipe*/
-	margin-top: 40px;
-	width: 1080px;
-	text-align: center;
+	margin-top: 40px;/*Margem de cima*/
+	width: 1080px;/*Largura*/
+	text-align: center;/*Alinhamento*/
 	
 }
 
-.produtos_txt{
-	vertical-align: top;
-	display: inline-block;
-	width: 500px;
-	text-align: left;
+.produtos_txt{/*Bloco texto acreditamos no poder da união*/
+	vertical-align: top;/*Alinhando elementos ao topo*/
+	display: inline-block;/*Elementos na mesma linha*/
+	width: 500px;/*Largura*/
+	text-align: left;/*Alinhamento horizontal*/
 }
 
-.img_pro{
-	margin-right: 20px;
-	display: inline-block;
+.img_pro{/*Imagem Acreditamos no poder da união*/
+	margin-right: 20px;/*Margem a direita*/
+	display: inline-block;/*Elementos na mesma linha*/
 }
 
-.produtos_txt h4{
-	line-height: 35px;
-	font-size: 30px;
-	color: black;
+.img_pro img{/*Definindo borda da imagem*/
+	border-radius: 10px;/*Borda arredondada*/
 }
 
-span{
-	color: rgba(51, 0, 255, 1.0);
+.produtos_txt h4{/*Acreditamos no poder da união*/
+	line-height: 35px;/*Espaçamento entre linhas*/
+	font-size: 30px;/*Tamanho da fonte*/
+	color: black;/*Cor*/
+}
+
+span{/*Definindo segunda cor da logo marca*/
+	color: rgba(51, 0, 255, 1.0);/*Cor*/
 }
 
 .produtos_txt p{/*Paragrafo da div acreditamos no poder da união e do trabalho em equipe*/
@@ -240,33 +242,33 @@ span{
 
 .card1{/*Card Mariane Barbosa*/
 	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
-	width: 220px;/*Determinando a largura*/
-	height: 210px;
+	width: 220px;/*Definindo a largura*/
+	height: 210px;/*Definindo altura*/
 	background-color: white;/*Definindo a cor de fundo*/
-	border-radius: 6px;
+	border-radius: 6px;/*Borda arredondada*/
 }
 
-.card1 h2{
-	margin-top: 5px;
-	font-size: 22px;
+.card1 h2{/*Nome do funcionário*/
+	margin-top: 5px;/*Margem a cima*/
+	font-size: 22px;/*Tamanho da fonte*/
 }
 
 .card2{/*Card Artur da Mata*/
 	margin-left: 30px;/*Definindo a margem a esquerda*/
 	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
 	width: 220px;/*Definindo a largura*/
-	height: 210px;
+	height: 210px;/*Definindo altura*/
 	background-color: white;/*Definindo cor de fundo*/
-	border-radius: 6px;
+	border-radius: 6px;/*Borda arredondada*/
 }
 
-.card img{
-	border-radius: 6px;
+.card img{/*Imagens dos funcionários*/
+	border-radius: 6px;/*Borda arredondada*/
 }
 
-.card2 h2{
-	margin-top: 5px;
-	font-size: 22px;
+.card2 h2{/*Nome do funcionário*/
+	margin-top: 5px;/*Margem de cima*/
+	font-size: 22px;/*Tamanho da fonte*/
 }
 
 
@@ -274,14 +276,14 @@ span{
 	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
 	background-color: white;/*Definindo a cor de fundo*/
 	width: 220px;/*Definindo largura*/
-	height: 210px;
+	height: 210px;/*Definindo altura*/
 	margin-left: 30px;/* Definindo margem a esquerda*/
-	border-radius: 8px;
+	border-radius: 8px;/*Borda arredondada*/
 }
 
-.card3 h2{
-	margin-top: 5px;
-	font-size: 22px;
+.card3 h2{/*Nome do funcionário*/
+	margin-top: 5px;/*Margem de cima*/
+	font-size: 22px;/*Tamanho da fonte*/
 }
 
 
@@ -289,58 +291,58 @@ span{
 	background-color: white;/*Definindo cor de fundo*/
 	margin-left: 30px;/* Definindo margem a esquerda */
 	display: inline-block;/*Definindo que todos permaneçam na mesma linha*/
-	height: 210px;
+	height: 210px;/*Definindo altura*/
 	width: 220px;/*Definindo largura*/
-	border-radius: 8px;
+	border-radius: 8px;/*Borda arredondada*/
 }
 
-.card4 h2{
-	margin-top: 5px;
-	font-size: 22px;
-}
-
-
-.card5{
-	display: inline-block;
-	background-color: white;
-	height: 210px;
-	width: 220px;
-	border-radius: 8px;
-}
-
-.card5 h2{
-	margin-top: 5px;
-	font-size: 22px;
+.card4 h2{/*Nome do funcionário*/
+	margin-top: 5px;/*Margem de cima*/
+	font-size: 22px;/*Tamanho da fonte*/
 }
 
 
-.card6{
-	display: inline-block;
-	width: 220px;
-	height: 210px;
-	background-color: white;
-	margin-left: 30px;
-	border-radius: 8px;
+.card5{/*Card Isabella*/
+	display: inline-block;/*Elementos na mesma linha*/
+	background-color: white;/*Cor de fundo*/
+	height: 210px;/*Altura*/
+	width: 220px;/*Largura*/
+	border-radius: 8px;/*Borda arredondada*/
 }
 
-.card6 h2{
-	margin-top: 5px;
-	font-size: 22px;
+.card5 h2{/*Nome do funcionário*/
+	margin-top: 5px;/*Margem de cima*/
+	font-size: 22px;/*Tamanho da fonte*/
 }
 
 
-.card7{
-	display: inline-block;
-	width: 220px;
-	height: 210px;
-	background-color: white;
-	margin-left: 30px;
-	border-radius: 8px;
+.card6{/*Card Bryan*/
+	display: inline-block;/*Elementos na mesma linha*/
+	width: 220px;/*Largura*/
+	height: 210px;/*Altura*/
+	background-color: white;/*Cor de fundo*/
+	margin-left: 30px;/*Margem a esquerda*/
+	border-radius: 8px;/*Borda arredondada*/
 }
 
-.card7 h2{
-	margin-top: 5px;
-	font-size: 22px;
+.card6 h2{/*Nome do funcionário*/
+	margin-top: 5px;/*Margem de cima*/
+	font-size: 22px;/*Tamanho da fonte*/
+}
+
+
+.card7{/*Card lARA*/
+	display: inline-block;/*Elementos na mesma linha*/
+	width: 220px;/*Largura*/
+	height: 210px;/*Altura*/
+	background-color: white;/*Cor de fundo*/
+	margin-left: 30px;/*Margem a esquerda*/
+	border-radius: 8px;/*Borda arredondada*/
+}
+
+.card7 h2{/*Nome do funcionário*/
+	margin-top: 5px;/*Margem de cima*/
+	font-size: 22px;/*Tamanho da fonte*/
 }
 
 
@@ -348,11 +350,11 @@ span{
 	display: inline-block;/*Elemento na mesma linha*/
 	width: 220px;/*Largura*/
 	height: 210px;/*Altura*/
-	background-color: white;
-	margin-left: 30px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border-radius: 8px;
+	background-color: white;/*Cor de fundo*/
+	margin-left: 30px;/*Margem esquerda*/
+	margin-top: 15px;/*Margem a cima*/
+	margin-bottom: 15px;/*Margem a baixo*/
+	border-radius: 8px;/*Borda arredondada*/
 }
 
 .card8 h2{/*Editando o Nome dos funcionários*/
