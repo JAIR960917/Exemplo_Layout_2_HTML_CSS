@@ -244,11 +244,9 @@ span{/*Definindo segunda cor da logo marca*/
 	width: 280px;/*Definindo largura*/
 	height: 260px;/*Definindo altura*/
 	margin-top: 15px;/*Definindo margem a cima ao passar o mouse por cima*/
-	animation-play-state: running;
-	animation-duration: 3s;
 }
 
-.div_nav a:hover, .div_suporte a:hover{
+.div_nav a:hover, .div_suporte a:hover{/*Links do rodapé*/
 	text-decoration: underline;
 	color: rgba(51, 0, 255, 1.0);
 }
